@@ -50,7 +50,7 @@ export default {
          <p v-if="trigger == 0">{{ ans }}</p>
       </div>
 
-      <input type="number" v-model="guessNum" />
+      <input placeholder="TEST" type="number" v-model="guessNum" />
       <button type="button" @click="checkNum()">回答</button>
    </div>
 </template>
